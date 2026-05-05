@@ -44,7 +44,6 @@ RmUltimo.addEventListener("click", function () {
 
 document.addEventListener("DOMContentLoaded", () => {
     renderizar()
-
 })
 
 
