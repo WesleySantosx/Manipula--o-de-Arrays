@@ -30,6 +30,13 @@ adicionarF.addEventListener("click", function () {
 
 RmPrimeiro.addEventListener("click", function () {
     const valor = nome.value;   
+    lista_nome.shift(valor);
+    renderizar();
+
+})
+
+RmUltimo.addEventListener("click", function () {
+    const valor = nome.value;   
     lista_nome.pop(valor);
     renderizar();
 
